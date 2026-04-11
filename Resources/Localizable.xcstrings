@@ -1,0 +1,1476 @@
+{
+  "sourceLanguage": "es",
+  "version": "1.0",
+  "strings": {
+    "Inicio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Home"
+          }
+        }
+      }
+    },
+    "Módulos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modules"
+          }
+        }
+      }
+    },
+    "Progreso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress"
+          }
+        }
+      }
+    },
+    "Perfil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "AlgebraGo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AlgebraGo"
+          }
+        }
+      }
+    },
+    "Acceso Restringido": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restricted Access"
+          }
+        }
+      }
+    },
+    "Panel del Investigador": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Researcher Panel"
+          }
+        }
+      }
+    },
+    "Encuesta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Survey"
+          }
+        }
+      }
+    },
+    "¡Bienvenido a AlgebraGo!": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to AlgebraGo!"
+          }
+        }
+      }
+    },
+    "Esta aplicación forma parte de una investigación académica sobre el aprendizaje de álgebra. Tu participación es completamente anónima.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This app is part of an academic research study on algebra learning. Your participation is completely anonymous."
+          }
+        }
+      }
+    },
+    "Aprenderás álgebra con módulos interactivos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You'll learn algebra with interactive modules"
+          }
+        }
+      }
+    },
+    "Completarás quizzes para practicar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You'll complete quizzes to practice"
+          }
+        }
+      }
+    },
+    "Tu progreso se guarda localmente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your progress is saved locally"
+          }
+        }
+      }
+    },
+    "No se recopila información personal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No personal information is collected"
+          }
+        }
+      }
+    },
+    "Código de Participante": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Participant Code"
+          }
+        }
+      }
+    },
+    "Ingresa el código que te fue asignado por el investigador (ej: P01, P02...)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the code assigned by the researcher (e.g., P01, P02...)"
+          }
+        }
+      }
+    },
+    "Código (ej: P01)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code (e.g., P01)"
+          }
+        }
+      }
+    },
+    "Elige tu Avatar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose Your Avatar"
+          }
+        }
+      }
+    },
+    "Selecciona un ícono que te represente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select an icon that represents you"
+          }
+        }
+      }
+    },
+    "Nivel en Álgebra": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Algebra Level"
+          }
+        }
+      }
+    },
+    "¿Cómo describes tu nivel actual en álgebra?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "How would you describe your current algebra level?"
+          }
+        }
+      }
+    },
+    "Grupo de Estudio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Study Group"
+          }
+        }
+      }
+    },
+    "El investigador te indicará a qué grupo perteneces.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The researcher will tell you which group you belong to."
+          }
+        }
+      }
+    },
+    "Grupo Experimental": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experimental Group"
+          }
+        }
+      }
+    },
+    "Aprenderás con la app interactiva": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You'll learn with the interactive app"
+          }
+        }
+      }
+    },
+    "Grupo Control": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Control Group"
+          }
+        }
+      }
+    },
+    "Aprenderás con material de estudio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You'll learn with study materials"
+          }
+        }
+      }
+    },
+    "¡Todo listo!": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All set!"
+          }
+        }
+      }
+    },
+    "Código:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code:"
+          }
+        }
+      }
+    },
+    "Avatar:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avatar:"
+          }
+        }
+      }
+    },
+    "Nivel:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Level:"
+          }
+        }
+      }
+    },
+    "Grupo:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Group:"
+          }
+        }
+      }
+    },
+    "A continuación realizarás un test de conocimientos iniciales antes de comenzar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next, you'll take an initial knowledge test before starting."
+          }
+        }
+      }
+    },
+    "Poca o ninguna experiencia con álgebra": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Little or no experience with algebra"
+          }
+        }
+      }
+    },
+    "Conozco conceptos básicos de ecuaciones": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I know basic equation concepts"
+          }
+        }
+      }
+    },
+    "Me siento cómodo resolviendo problemas algebraicos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I feel comfortable solving algebraic problems"
+          }
+        }
+      }
+    },
+    "Comenzar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        }
+      }
+    },
+    "Continuar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        }
+      }
+    },
+    "Siguiente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        }
+      }
+    },
+    "Confirmar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm"
+          }
+        }
+      }
+    },
+    "Finalizar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish"
+          }
+        }
+      }
+    },
+    "Reintentar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retry"
+          }
+        }
+      }
+    },
+    "Anterior": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous"
+          }
+        }
+      }
+    },
+    "Enviar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Submit"
+          }
+        }
+      }
+    },
+    "Acceder": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Access"
+          }
+        }
+      }
+    },
+    "Cerrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "Cancelar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Ver Ejemplo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View Example"
+          }
+        }
+      }
+    },
+    "Siguiente Paso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next Step"
+          }
+        }
+      }
+    },
+    "Iniciar Quiz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Quiz"
+          }
+        }
+      }
+    },
+    "Siguiente Pregunta": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next Question"
+          }
+        }
+      }
+    },
+    "Comenzar práctica": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Practice"
+          }
+        }
+      }
+    },
+    "Comenzar tarea": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Task"
+          }
+        }
+      }
+    },
+    "Exportar Datos (JSON)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export Data (JSON)"
+          }
+        }
+      }
+    },
+    "Exportar Todos los Participantes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export All Participants"
+          }
+        }
+      }
+    },
+    "Encuesta Reflexiva Final": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Final Reflective Survey"
+          }
+        }
+      }
+    },
+    "Realizar Post-Test": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take Post-Test"
+          }
+        }
+      }
+    },
+    "Cerrar Sesión": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log Out"
+          }
+        }
+      }
+    },
+    "Continúa aprendiendo álgebra": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue learning algebra"
+          }
+        }
+      }
+    },
+    "Progreso General": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Overall Progress"
+          }
+        }
+      }
+    },
+    "Continuar con:": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue with:"
+          }
+        }
+      }
+    },
+    "Insignias Recientes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent Badges"
+          }
+        }
+      }
+    },
+    "Mantén tu racha estudiando cada día": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep your streak by studying every day"
+          }
+        }
+      }
+    },
+    "Sin datos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No data"
+          }
+        }
+      }
+    },
+    "Puntos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Points"
+          }
+        }
+      }
+    },
+    "Nivel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Level"
+          }
+        }
+      }
+    },
+    "Racha": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streak"
+          }
+        }
+      }
+    },
+    "Progreso al siguiente nivel": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress to next level"
+          }
+        }
+      }
+    },
+    "Insignias": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Badges"
+          }
+        }
+      }
+    },
+    "Experimental": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experimental"
+          }
+        }
+      }
+    },
+    "Control": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Control"
+          }
+        }
+      }
+    },
+    "Tus datos se conservan en el dispositivo. Podrás iniciar sesión con otro código de participante.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your data is preserved on the device. You can log in with another participant code."
+          }
+        }
+      }
+    },
+    "desbloqueada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "unlocked"
+          }
+        }
+      }
+    },
+    "bloqueada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "locked"
+          }
+        }
+      }
+    },
+    "Resumen de Progreso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress Summary"
+          }
+        }
+      }
+    },
+    "Rendimiento en Quizzes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiz Performance"
+          }
+        }
+      }
+    },
+    "Teoría": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Theory"
+          }
+        }
+      }
+    },
+    "Ejemplo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Example"
+          }
+        }
+      }
+    },
+    "Quiz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiz"
+          }
+        }
+      }
+    },
+    "¡Correcto!": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Correct!"
+          }
+        }
+      }
+    },
+    "¡Excelente trabajo!": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excellent work!"
+          }
+        }
+      }
+    },
+    "Buen esfuerzo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Good effort"
+          }
+        }
+      }
+    },
+    "Tiempo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Time"
+          }
+        }
+      }
+    },
+    "Puntos ganados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Points earned"
+          }
+        }
+      }
+    },
+    "¡Bonus aleatorio!": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Random bonus!"
+          }
+        }
+      }
+    },
+    "+5 pts": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+5 pts"
+          }
+        }
+      }
+    },
+    "Evaluación de Carga Cognitiva": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cognitive Load Assessment"
+          }
+        }
+      }
+    },
+    "Indica qué tan de acuerdo estás con cada afirmación (1 = Nada, 9 = Totalmente)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indicate how much you agree with each statement (1 = Not at all, 9 = Completely)"
+          }
+        }
+      }
+    },
+    "Mini-SART": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mini-SART"
+          }
+        }
+      }
+    },
+    "Toca la pantalla cuando veas un número.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap the screen when you see a number."
+          }
+        }
+      }
+    },
+    "NO toques cuando veas el número 3.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Do NOT tap when you see the number 3."
+          }
+        }
+      }
+    },
+    "Los números aparecerán brevemente.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Numbers will appear briefly."
+          }
+        }
+      }
+    },
+    "Primero harás una práctica de 10 estímulos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First you'll do a practice run of 10 stimuli."
+          }
+        }
+      }
+    },
+    "La práctica ha terminado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Practice is complete."
+          }
+        }
+      }
+    },
+    "La tarea real comenzará ahora.\nRecuerda: toca para todos los números excepto el 3.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The real task will begin now.\nRemember: tap for all numbers except 3."
+          }
+        }
+      }
+    },
+    "Tarea completada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Task completed"
+          }
+        }
+      }
+    },
+    "Puedes continuar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You can continue."
+          }
+        }
+      }
+    },
+    "Test completado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Test completed"
+          }
+        }
+      }
+    },
+    "Gracias por tu participación.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thank you for your participation."
+          }
+        }
+      }
+    },
+    "Tu puntuación": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your score"
+          }
+        }
+      }
+    },
+    "Encuesta Reflexiva": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reflective Survey"
+          }
+        }
+      }
+    },
+    "Tu opinión es muy importante para nuestra investigación. Por favor, responde con honestidad. No hay respuestas correctas o incorrectas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your opinion is very important for our research. Please answer honestly. There are no right or wrong answers."
+          }
+        }
+      }
+    },
+    "1 - Totalmente en desacuerdo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 - Strongly disagree"
+          }
+        }
+      }
+    },
+    "2 - En desacuerdo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2 - Disagree"
+          }
+        }
+      }
+    },
+    "3 - Neutral": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "3 - Neutral"
+          }
+        }
+      }
+    },
+    "4 - De acuerdo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4 - Agree"
+          }
+        }
+      }
+    },
+    "5 - Totalmente de acuerdo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "5 - Strongly agree"
+          }
+        }
+      }
+    },
+    "Ingresa el código PIN de acceso": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter access PIN code"
+          }
+        }
+      }
+    },
+    "PIN incorrecto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incorrect PIN"
+          }
+        }
+      }
+    },
+    "Error": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "Progreso de Módulos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Module Progress"
+          }
+        }
+      }
+    },
+    "Sesiones Mini-SART": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mini-SART Sessions"
+          }
+        }
+      }
+    },
+    "Carga Cognitiva (Leppink)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cognitive Load (Leppink)"
+          }
+        }
+      }
+    },
+    "Tests de Retención": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Retention Tests"
+          }
+        }
+      }
+    },
+    "Insignias Obtenidas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Badges Earned"
+          }
+        }
+      }
+    },
+    "Ninguna insignia desbloqueada aún": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No badges unlocked yet"
+          }
+        }
+      }
+    },
+    "No hay datos de participante disponibles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No participant data available"
+          }
+        }
+      }
+    },
+    "No se encontraron participantes guardados": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No saved participants found"
+          }
+        }
+      }
+    },
+    "Perfectos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfect"
+          }
+        }
+      }
+    },
+    "Promedio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Average"
+          }
+        }
+      }
+    },
+    "Quizzes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quizzes"
+          }
+        }
+      }
+    },
+    "Progreso: %lld%%": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress: %lld%%"
+          }
+        }
+      }
+    },
+    "Nivel %lld: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Level %lld: %@"
+          }
+        }
+      }
+    },
+    "%lld pts": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld pts"
+          }
+        }
+      }
+    },
+    "%lld de 12 módulos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of 12 modules"
+          }
+        }
+      }
+    },
+    "Racha: %lld días": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streak: %lld days"
+          }
+        }
+      }
+    },
+    "Módulo %lld.%lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Module %lld.%lld"
+          }
+        }
+      }
+    },
+    "Puntaje: %lld%%": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Score: %lld%%"
+          }
+        }
+      }
+    },
+    "Pregunta %lld de %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Question %lld of %lld"
+          }
+        }
+      }
+    },
+    "Paso %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld"
+          }
+        }
+      }
+    },
+    "Unidad %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unit %lld"
+          }
+        }
+      }
+    },
+    "Valor: %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Value: %lld"
+          }
+        }
+      }
+    },
+    "Semana %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week %lld"
+          }
+        }
+      }
+    },
+    "%lld de %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld of %lld"
+          }
+        }
+      }
+    },
+    "¡Hola, %@!": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hello, %@!"
+          }
+        }
+      }
+    },
+    "Forma %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Form %@"
+          }
+        }
+      }
+    },
+    "Participante: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Participant: %@"
+          }
+        }
+      }
+    },
+    "Grupo: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Group: %@"
+          }
+        }
+      }
+    },
+    "Aprendiz": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apprentice"
+          }
+        }
+      }
+    },
+    "Estudiante": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Student"
+          }
+        }
+      }
+    },
+    "Practicante": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Practitioner"
+          }
+        }
+      }
+    },
+    "Experto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expert"
+          }
+        }
+      }
+    },
+    "Maestro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Master"
+          }
+        }
+      }
+    },
+    "Básico": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basic"
+          }
+        }
+      }
+    },
+    "Intermedio": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intermediate"
+          }
+        }
+      }
+    },
+    "Avanzado": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advanced"
+          }
+        }
+      }
+    }
+  }
+}

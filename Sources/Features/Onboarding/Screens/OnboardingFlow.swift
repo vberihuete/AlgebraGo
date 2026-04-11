@@ -201,7 +201,7 @@ struct OnboardingFlow: View {
             VStack(spacing: Spacing.sm) {
                 ForEach(AlgebraLevel.allCases, id: \.self) { level in
                     SelectionRow(
-                        title: level.rawValue,
+                        title: level.displayName,
                         subtitle: levelSubtitle(level),
                         isSelected: algebraLevel == level,
                         onSelect: { algebraLevel = level }
@@ -268,7 +268,7 @@ struct OnboardingFlow: View {
                     HStack {
                         Text("Nivel:")
                             .fontWeight(.semibold)
-                        Text(algebraLevel.rawValue)
+                        Text(algebraLevel.displayName)
                     }
                     HStack {
                         Text("Grupo:")

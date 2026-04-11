@@ -51,7 +51,7 @@ struct ResearcherPanelScreen: View {
                     withAnimation { isAuthenticated = true }
                 } else {
                     showError = true
-                    errorMessage = "PIN incorrecto"
+                    errorMessage = String(localized: "PIN incorrecto")
                     pinCode = ""
                 }
             }
@@ -87,7 +87,7 @@ struct ResearcherPanelScreen: View {
                                 .font(.AG.subtitle)
                                 .foregroundColor(Color.AG.primaryText)
                             Text("Grupo: \(participant.groupType.rawValue)")
-                            Text("Nivel autodeclarado: \(participant.algebraLevel.rawValue)")
+                            Text("Nivel autodeclarado: \(participant.algebraLevel.displayName)")
                             Text("Fecha inicio: \(participant.startDate.formatted(date: .abbreviated, time: .omitted))")
                             Text("Semana actual: \(participant.currentWeekNumber())")
                             Text("Puntos: \(participant.points)")
@@ -258,6 +258,11 @@ struct ResearcherPanelScreen: View {
                 ShareSheet(items: [url])
             }
         }
+        .alert("Error", isPresented: $showError) {
+            Button("OK") {}
+        } message: {
+            Text(errorMessage)
+        }
     }
 
     // MARK: - Export
@@ -270,7 +275,8 @@ struct ResearcherPanelScreen: View {
             encoder.dateEncodingStrategy = .iso8601
             let data = try encoder.encode(participant)
 
-            let fileName = "AlgebraGo_\(participant.id)_\(Date().ISO8601Format()).json"
+            let dateStr = ISO8601DateFormatter().string(from: Date()).replacingOccurrences(of: ":", with: "-")
+            let fileName = "AlgebraGo_\(participant.id)_\(dateStr).json"
             let tempURL = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
             try data.write(to: tempURL)
 
@@ -293,7 +299,7 @@ struct ResearcherPanelScreen: View {
         }
 
         guard !allParticipants.isEmpty else {
-            errorMessage = "No se encontraron participantes guardados"
+            errorMessage = String(localized: "No se encontraron participantes guardados")
             showError = true
             return
         }
@@ -304,7 +310,8 @@ struct ResearcherPanelScreen: View {
             encoder.dateEncodingStrategy = .iso8601
             let data = try encoder.encode(allParticipants)
 
-            let fileName = "AlgebraGo_AllParticipants_\(Date().ISO8601Format()).json"
+            let dateStr = ISO8601DateFormatter().string(from: Date()).replacingOccurrences(of: ":", with: "-")
+            let fileName = "AlgebraGo_AllParticipants_\(dateStr).json"
             let tempURL = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
             try data.write(to: tempURL)
 

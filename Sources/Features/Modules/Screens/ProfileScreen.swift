@@ -4,6 +4,7 @@ struct ProfileScreen: View {
     @Environment(AppState.self) private var appState
     @State private var showResearcherPanel = false
     @State private var showReflexiveSurvey = false
+    @State private var showLogoutConfirmation = false
 
     var body: some View {
         NavigationStack {
@@ -97,7 +98,7 @@ struct ProfileScreen: View {
             // Info section
             CardView {
                 VStack(alignment: .leading, spacing: Spacing.sm) {
-                    Label("Nivel: \(participant.algebraLevel.rawValue)", systemImage: "chart.bar")
+                    Label("Nivel: \(participant.algebraLevel.displayName)", systemImage: "chart.bar")
                     Label("Grupo: \(participant.groupType == .experimental ? "Experimental" : "Control")", systemImage: "person.2")
                     Label("Semana: \(participant.currentWeekNumber())", systemImage: "calendar")
                 }
@@ -127,8 +128,31 @@ struct ProfileScreen: View {
                 showResearcherPanel = true
             }
             .padding(.horizontal, Spacing.screenHorizontal)
+
+            // Logout
+            Button {
+                showLogoutConfirmation = true
+            } label: {
+                HStack(spacing: Spacing.xs) {
+                    Image(systemName: "rectangle.portrait.and.arrow.right")
+                    Text("Cerrar Sesión")
+                }
+                .font(.AG.body)
+                .foregroundColor(Color.AG.error)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, Spacing.md)
+            }
+            .padding(.horizontal, Spacing.screenHorizontal)
         }
         .padding(.bottom, Spacing.xxl)
+        .alert("Cerrar Sesión", isPresented: $showLogoutConfirmation) {
+            Button("Cancelar", role: .cancel) {}
+            Button("Cerrar Sesión", role: .destructive) {
+                appState.logout()
+            }
+        } message: {
+            Text("Tus datos se conservan en el dispositivo. Podrás iniciar sesión con otro código de participante.")
+        }
     }
 
     @ViewBuilder

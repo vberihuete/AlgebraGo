@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct PrimaryButton: View {
-    let title: String
+    let title: LocalizedStringKey
     var isEnabled: Bool = true
     let action: () -> Void
 
@@ -21,7 +21,7 @@ struct PrimaryButton: View {
 }
 
 struct SecondaryButton: View {
-    let title: String
+    let title: LocalizedStringKey
     let action: () -> Void
 
     var body: some View {

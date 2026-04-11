@@ -11,24 +11,20 @@ Aplicación móvil educativa para investigación de tesis de maestría sobre gam
 
 ## Compilación
 
-### Opción 1: Abrir directamente
+### Inicio rápido
 ```bash
-open AlgebraGo.xcodeproj
+brew install xcodegen  # solo la primera vez
+make proj
 ```
-Selecciona un simulador iPhone y presiona `Cmd+R`.
+Esto genera el proyecto Xcode y lo abre automáticamente. Selecciona un simulador iPhone y presiona `Cmd+R`.
 
-### Opción 2: Compilar desde terminal
+### Compilar desde terminal
 ```bash
+make proj  # genera y abre el proyecto
 xcodebuild -project AlgebraGo.xcodeproj \
   -scheme AlgebraGo \
   -destination 'platform=iOS Simulator,name=iPhone 16' \
   build
-```
-
-### Regenerar proyecto (si modificas la estructura)
-```bash
-brew install xcodegen  # solo la primera vez
-xcodegen generate
 ```
 
 ## Distribución por TestFlight

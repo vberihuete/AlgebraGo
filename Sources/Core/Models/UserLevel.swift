@@ -19,12 +19,12 @@ enum UserLevel {
 
     static func name(for level: Int) -> String {
         switch level {
-        case 1: return "Aprendiz"
-        case 2: return "Estudiante"
-        case 3: return "Practicante"
-        case 4: return "Experto"
-        case 5: return "Maestro"
-        default: return "Aprendiz"
+        case 1: return String(localized: "Aprendiz")
+        case 2: return String(localized: "Estudiante")
+        case 3: return String(localized: "Practicante")
+        case 4: return String(localized: "Experto")
+        case 5: return String(localized: "Maestro")
+        default: return String(localized: "Aprendiz")
         }
     }
 

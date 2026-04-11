@@ -1,0 +1,135 @@
+{
+  "fill" : {
+    "automatic-gradient" : "display-p3:0.96783,0.36151,0.77067,1.00000"
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "image-name" : "math-plus-svgrepo-com.svg",
+          "name" : "math-plus-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              -373.699129860962,
+              -186.19999999999993
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "image-name" : "math-multiply-svgrepo-com.svg",
+          "name" : "math-multiply-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              352.4493962638726,
+              -385.36570031326926
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "image-name" : "math-minus-svgrepo-com.svg",
+          "name" : "math-minus-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              -360.21341557524784,
+              99.39761946550652
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "image-name" : "math-formula-svgrepo-com.svg",
+          "name" : "math-formula-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              310.9097587377232,
+              243.8021052221343
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "image-name" : "math-equals-svgrepo-com.svg",
+          "name" : "math-equals-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              -265.81341557524775,
+              345.2129542931086
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "image-name" : "math-divide-svgrepo-com.svg",
+          "name" : "math-divide-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              377.916750773039,
+              -78.31428571428569
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:1.00000,0.99570,0.21966,1.00000"
+          },
+          "hidden" : false,
+          "image-name" : "math-format-linear-svgrepo-com.svg",
+          "name" : "math-format-linear-svgrepo-com",
+          "opacity" : 0.5800000000000001,
+          "position" : {
+            "scale" : 0.59,
+            "translation-in-points" : [
+              -47.96782446288569,
+              -344.886112672998
+            ]
+          }
+        },
+        {
+          "image-name" : "student-medium-light-skin-tone-svgrepo-com.svg",
+          "name" : "student-medium-light-skin-tone-svgrepo-com"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}

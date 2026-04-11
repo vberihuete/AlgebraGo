@@ -13,6 +13,7 @@ struct ModuleDetailScreen: View {
     @State private var showFeedback = false
     @State private var isCorrect = false
     @State private var attemptNumber = 1
+    @State private var waitingForRetry = false
     @State private var quizScore = 0
     @State private var moduleStartTime = Date()
     @State private var showCognitiveLoad = false
@@ -256,7 +257,8 @@ struct ModuleDetailScreen: View {
                     }
                 }
             case .quiz:
-                if showFeedback {
+                if showFeedback && isCorrect {
+                    // Correct answer — advance or finish
                     if currentQuizIndex < module.quizQuestions.count - 1 {
                         PrimaryButton(title: "Siguiente Pregunta") {
                             advanceQuiz()
@@ -266,12 +268,28 @@ struct ModuleDetailScreen: View {
                             finishModule()
                         }
                     }
-                } else if !isCorrect && attemptNumber > 1 && quizAnswers[currentQuizIndex] != nil {
+                } else if showFeedback && !isCorrect && attemptNumber < 2 {
+                    // Wrong on first attempt — offer retry
                     PrimaryButton(title: "Reintentar") {
+                        attemptNumber = 2
                         showFeedback = false
+                        isCorrect = false
+                        waitingForRetry = false
                         quizAnswers[currentQuizIndex] = nil
                     }
+                } else if showFeedback && !isCorrect && attemptNumber >= 2 {
+                    // Wrong on second attempt — move on
+                    if currentQuizIndex < module.quizQuestions.count - 1 {
+                        PrimaryButton(title: "Siguiente Pregunta") {
+                            advanceQuiz()
+                        }
+                    } else {
+                        PrimaryButton(title: "Finalizar") {
+                            finishModule()
+                        }
+                    }
                 } else {
+                    // No feedback yet — confirm answer
                     PrimaryButton(title: "Confirmar", isEnabled: quizAnswers[currentQuizIndex] != nil) {
                         checkAnswer()
                     }
@@ -293,25 +311,15 @@ struct ModuleDetailScreen: View {
 
         if isCorrect {
             quizScore += 1
-            showFeedback = true
-            withAnimation(.easeInOut(duration: 0.3)) {}
         } else {
-            showFeedback = true
             withAnimation {
                 shakeWrong = true
             }
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 shakeWrong = false
             }
-            if attemptNumber < 2 {
-                // Allow retry
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-                    attemptNumber += 1
-                    showFeedback = false
-                    quizAnswers[currentQuizIndex] = nil
-                }
-            }
         }
+        showFeedback = true
     }
 
     private func advanceQuiz() {
@@ -319,6 +327,7 @@ struct ModuleDetailScreen: View {
         showFeedback = false
         isCorrect = false
         attemptNumber = 1
+        waitingForRetry = false
     }
 
     private func markModuleStarted() {

@@ -5,14 +5,12 @@ import Foundation
 final class AppState {
     static let shared = AppState()
 
-    var isOnboarded: Bool {
-        get { UserDefaults.standard.bool(forKey: "isOnboarded") }
-        set { UserDefaults.standard.set(newValue, forKey: "isOnboarded") }
+    var isOnboarded: Bool = false {
+        didSet { UserDefaults.standard.set(isOnboarded, forKey: "isOnboarded") }
     }
 
-    var currentParticipantId: String? {
-        get { UserDefaults.standard.string(forKey: "currentParticipantId") }
-        set { UserDefaults.standard.set(newValue, forKey: "currentParticipantId") }
+    var currentParticipantId: String? = nil {
+        didSet { UserDefaults.standard.set(currentParticipantId, forKey: "currentParticipantId") }
     }
 
     var participant: Participant? {
@@ -30,6 +28,9 @@ final class AppState {
     var showReflexiveSurvey: Bool = false
 
     private init() {
+        // Restore from UserDefaults
+        self.isOnboarded = UserDefaults.standard.bool(forKey: "isOnboarded")
+        self.currentParticipantId = UserDefaults.standard.string(forKey: "currentParticipantId")
         if let id = currentParticipantId {
             participant = loadParticipant(id: id)
         }

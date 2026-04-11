@@ -93,6 +93,10 @@ enum AlgebraLevel: String, Codable, CaseIterable {
     case basico = "Básico"
     case intermedio = "Intermedio"
     case avanzado = "Avanzado"
+
+    var displayName: String {
+        String(localized: LocalizedStringResource(stringLiteral: rawValue))
+    }
 }
 
 enum GroupType: String, Codable, CaseIterable {
