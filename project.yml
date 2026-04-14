@@ -38,3 +38,15 @@ targets:
         INFOPLIST_KEY_CFBundleDisplayName: AlgebraGo
         ASSETCATALOG_COMPILER_APPICON_NAME: AlgebraGo-Icon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+
+  AlgebraGoTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - Tests
+    dependencies:
+      - target: AlgebraGo
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.thesis.algebrago.tests
+        GENERATE_INFOPLIST_FILE: YES
